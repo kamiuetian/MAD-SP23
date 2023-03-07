@@ -1,2 +1,3 @@
 # MAD-SP23
- MAD data for Spring 2023
+## Modern Javascript Cheatsheet
+- https://github.com/mbeaudru/modern-js-cheatsheet#modern-javascript-cheatsheet
