@@ -1,0 +1,22 @@
+1-Explain the usage of let, var and const keyword with example. (3
+
+2- write a function that checks if the length of string is gretaer that 6 and the string starts with CUI.  (3
+
+3- write a function that takes an array as argument and convert this array to a string and use '-' as the separator. (3
+ for example input=[1,2,3] output = 1-2-3
+
+4- for the array below 
+[
+{name: "Ali",
+gpa: 3.25,
+class: 'bcs'},
+{name: "Qasim",
+gpa: 2.75,
+class: 'bse'},
+{name: "noor",
+gpa: 3.5,
+class: 'bse'}
+]
+a) filter all students of bse. (2
+b) calculate the average of all students of bse.(2
+c) convert the name of each student to capital letters.(2

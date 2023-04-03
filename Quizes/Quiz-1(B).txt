@@ -1,0 +1,25 @@
+1- Write a function that receive 2 array parametes and return a single array created by merging the the 2 arrays received.
+
+2- Write a function that receive 3 string parameters and replace the second parameter in first parameter by third parameter. 
+For example  str_replacer ("i am comsian", "comsian", "uetian",  ). rreturn value will be "i am uetian"
+
+3- for the array below 
+[
+{name: "Ali",
+height:160,
+gender: 'male'},
+{name: "Alina",
+height: 140,
+gender: 'female'},
+{name: "amna",
+height:150,
+gender: 'female'},02066+
+{name: "munir",
+height: 170,
+gender: 'male'}
+
+]
+a) find the average height of both male and female gender
+b) write a function that filter all the females and print their names.
+
+

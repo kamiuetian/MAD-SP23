@@ -35,9 +35,11 @@ function Student(n, r) {
   this.name = n;
   this.reg = r;
 }
+
 let o1 = new Student("kamran", 01);
 let o2 = new Student("kamran", 01);
 let o3 = o1;
+
 console.log(o1 == o3);
 //console.log(o1);
 //delete o1.name;
