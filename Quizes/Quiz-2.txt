@@ -1,0 +1,9 @@
+1- create a react component that accepts name and registration number as prop.
+ and display them as Text component. Also import the necessary packages.
+
+2- Call this component from the App.js Component.
+
+3- Create a counter component that has a Text component to display the counter.
+ And a button that increments the value of counter on click.
+Also add a clickable View with Text component "Decrement" inside  that decrements 
+the value on click.

@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import MyComponent from "./Components/MyComponent";
+import FlexComponent from "./Components/FlexComponent";
 /**Our own component */
 /* function MyComponent() {
   return (
@@ -13,18 +14,13 @@ import MyComponent from "./Components/MyComponent";
 /**Component */
 export default function App() {
   console.log("App component rendered");
-  return (
-    <View style={styles.container}>
-      <MyComponent myname="ALi" age="29"></MyComponent>
-      <MyComponent myname="KAmran" age="29"></MyComponent>
-    </View>
-  );
+  return <FlexComponent></FlexComponent>;
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "yellow",
     alignItems: "center",
     justifyContent: "center",
   },

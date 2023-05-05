@@ -1,0 +1,10 @@
+1- Create a component that has 2 input fields. and button.
+   show keyboard with numbers only. On buton press get the values of both inout fields and 
+display the product  of these in a Text component.
+
+2-  <Student subjects={{s1:30,s2:40,s3:50}} ><Student>
+	Create the compoent that matches the above call. the component should display 
+the average marks.
+
+3- Add an image using to display the following image 
+"https://www.cuiatk.edu.pk/myiamge.png" having width and height of 100

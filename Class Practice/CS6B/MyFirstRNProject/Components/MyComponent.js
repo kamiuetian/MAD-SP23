@@ -1,4 +1,12 @@
-import { Text, TextInput, Button } from "react-native";
+import {
+  Text,
+  TextInput,
+  Button,
+  View,
+  TouchableHighlight,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+} from "react-native";
 import { useState } from "react";
 export default function MyComponent({ name }) {
   console.log("My compoennt rendered");
@@ -50,11 +58,13 @@ export default function MyComponent({ name }) {
           setResult(numb1 + numb2);
         }}
         color={"red"}
-      >
-      </Button>
+      ></Button>
       <Text>
         Result of {numb1}+{numb2}={result}
       </Text>
+      <TouchableWithoutFeedback onPress={() => {}}>
+        <View style={{ width: 50, height: 50, backgroundColor: "red" }}></View>
+      </TouchableWithoutFeedback>
     </>
   );
 }

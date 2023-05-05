@@ -1,4 +1,13 @@
-import { View, Text, TextInput, Button } from "react-native";
+import {
+  View,
+  Text,
+  TextInput,
+  Button,
+  Touchable,
+  TouchableHighlight,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+} from "react-native";
 import { useState } from "react";
 /**props object  */
 export default function MyComponent({ myname }) {
@@ -51,6 +60,13 @@ export default function MyComponent({ myname }) {
       <Text>
         Result {inp1}+{inp2}={result}
       </Text>
+      <TouchableWithoutFeedback
+        onPress={() => {
+          console.log("view is clicked");
+        }}
+      >
+        <View style={{ width: 50, height: 50, backgroundColor: "red" }}></View>
+      </TouchableWithoutFeedback>
     </View>
   );
 }
