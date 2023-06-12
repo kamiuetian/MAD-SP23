@@ -6,7 +6,7 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useState } from "react";
-import UserLocation from "./Components/UserLocation";
+import AxiosCalls from "./Components/AxiosCalls";
 /**Our own component */
 /* function MyComponent() {
   return (
@@ -69,7 +69,7 @@ function DetailsScreen({ navigation, route }) {
 }
 const Stack = createNativeStackNavigator();
 export default function App() {
-  return <UserLocation></UserLocation>;
+  return <AxiosCalls></AxiosCalls>;
   {
     /* <NavigationContainer>
       <Stack.Navigator
